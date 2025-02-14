@@ -8,13 +8,13 @@ textarea:focus {
 textarea::-webkit-scrollbar {
   display: none;
 }
-/* Hide scrollbar for IE, Edge and Firefox */
+
 textarea {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
 
 .active {
-  background-color: #4b5563; /* Tailwind's bg-gray-500 color */
-  color: #ffffff; /* Tailwind's text-white color */
+  background-color: #4b5563; /*tailwinds bg-gray-500 */
+  color: #ffffff; /* tailwinds text-white */
 }
