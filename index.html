@@ -1,16 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cryptify</title>
     <script type="module" src="/src/main.ts" defer></script>
   </head>
 
-  <body>
-    <main class="container">
-      
-    </main>
+  <header class="mb-15 mt-5">
+    <h1 class="text-6xl text-white font-bold">cryptify</h1>
+  </header>
+
+  <body class="flex flex-col justify-center items-center bg-gray-900">
+    <div class="mb-10">
+      <form action="submit" id="input-form">
+        <textarea
+          name="input"
+          id="input"
+          class="resize-none bg-gray-500 w-100 h-50 text-lg text-white rounded p-4"
+        ></textarea>
+      </form>
+    </div>
+    <div id="buttons" class="flex divide-x divide-gray-500">
+      <button class="flex-1 px-4 py-2 text-white rounded-l-md">Ceasar</button>
+      <button class="flex-1 px-4 py-2 text-white">Vigenere</button>
+      <button class="flex-1 px-4 py-2 text-white">Polybios</button>
+      <button class="flex-1 px-4 py-2 text-white">Transpos</button>
+      <button class="flex-1 px-4 py-2 text-white rounded-r-md">Morse</button>
+    </div>
+    <div class="mb-15 mt-15">
+      <textarea
+        name="output"
+        id="output"
+        class="resize-none bg-gray-600 w-100 h-50 text-lg text-white rounded p-4"
+        readonly
+      ></textarea>
+    </div>
   </body>
 </html>
