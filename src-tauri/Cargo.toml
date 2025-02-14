@@ -1,7 +1,7 @@
 [package]
 name = "cryptify"
 version = "0.1.0"
-description = "An app to decrypt and encrypt data using various algorithms"
+description = "An App to decrypt and encrypt data using various algorithms"
 authors = ["MoinAmMorgen"]
 edition = "2021"
 
