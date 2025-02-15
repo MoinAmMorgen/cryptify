@@ -14,19 +14,17 @@
 
   <body class="flex flex-col justify-center items-center bg-gray-900">
     <div class="mb-10">
-      <form action="submit" id="input-form">
         <textarea
           name="input"
           id="input"
           class="resize-none bg-gray-500 w-100 h-50 text-lg text-white rounded p-4"
         ></textarea>
-      </form>
     </div>
     <div id="buttons" class="flex divide-x divide-gray-500">
-      <button class="flex-1 px-4 py-2 text-white rounded-l-md">Ceasar</button>
+      <button class="flex-1 px-4 py-2 text-white rounded-l-md" id="caesar_encrypt">Ceasar</button>
       <button class="flex-1 px-4 py-2 text-white">Vigenere</button>
       <button class="flex-1 px-4 py-2 text-white">Polybios</button>
-      <button class="flex-1 px-4 py-2 text-white">Transpos</button>
+      <button class="flex-1 px-4 py-2 text-white" id="transpos_encrypt">Transpos</button>
       <button class="flex-1 px-4 py-2 text-white rounded-r-md">Morse</button>
     </div>
     <div class="mb-15 mt-15">
